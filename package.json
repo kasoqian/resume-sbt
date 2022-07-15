@@ -3,8 +3,8 @@
   "scripts": {
     "compile": "npx hardhat compile",
     "test": "npx hardhat test",
-    "deploy": "npx hardhat run scripts/deploy.ts",
-    "node": "npx hardhat node"
+    "deploy": "npx hardhat run scripts/deploy.ts --network localhost",
+    "start": "npx hardhat node"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^1.0.2",
